@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Web Page Design</title>
+<style>
+  body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e7e7e7; /* Gray background */
+  }
+  .container {
+    width: 65%; /* Adjusted width to add padding on the sides */
+    max-width: 1000px; /* Maximum width of the content */
+    margin: auto; /* This centers the container */
+    background-color: white;
+    overflow: hidden; /* Clear floats */
+	margin-top: 30px;
+  }
+  .header, .nav, .article-title, .article-content, .footer {
+    padding: 0 20px; /* Padding on the sides */
+  }
+  .header {
+    background-color: white;
+    color: black;
+	font-weight: 600;
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+	
+  }
+  .nav {
+    background-color: #e7e7e7;
+    color: #fff;
+    text-align: left;
+    padding: 10px 0;
+	
+  }
+  .nav a {
+    color: black;
+    padding: 0 15px;
+    text-decoration: none;
+  }
+  .article-title {
+    background-color: white;
+    color: black;
+    text-align: left;
+	padding-left: 5px;
+  }
+  .placeholder-image {
+    width: 100%;
+	height: 400px;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+
+  }
+  .article-content {
+    text-align: left;
+    background-color: white;
+    color: black;
+    padding: 50px 0;
+  }
+  .footer {
+    background-color: #e7e7e7;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <h1>MateStore.com</h1>
+  </div>
+  <div class="nav">
+    <a href="#">HOME</a>
+    <a href="#">PAGE2</a>
+    <a href="#">PAGE3</a>
+  </div>
+  <div class="article-title">
+    <h2>Buy your yerba mate here</h2>
+  </div>
+  <img src="images/image.png" alt="Tranquil Landscape" class="placeholder-image">
+  <div class="article-content">
+    <p>Yerba mate is a world-renowned Argentinian infusion.</p>
+	<hr style="border: 3px solid black; margin: 10px 0;">
+    <p>Only the best American instructors in the world love mate.</p>
+  </div>
+  <div class="footer">
+    <p>This web site was created by me © 2020</p>
+  </div>
+</div>
+</body>
+</html>
